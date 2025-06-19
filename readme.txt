@@ -24,9 +24,9 @@ Description
 
 == Frequently Asked Questions ==
 
-= Does this theme support any plugins? =
+= Does this theme support or require any plugins? =
 
-boilerplate includes support for WooCommerce and for Infinite Scroll in Jetpack.
+boilerplate includes support for WooCommerce, Infinite Scroll in Jetpack and requires ACF (Advacned Custom Fields).
 
 == Changelog ==
 
