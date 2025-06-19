@@ -23,6 +23,10 @@ function blankslate_scripts() {
 	wp_enqueue_style( 'slick', get_stylesheet_directory_uri() . '/css/slick.min.css', array(), filemtime( get_stylesheet_directory() . '/css/slick.min.css' ) );
 	wp_enqueue_script( 'slick', get_stylesheet_directory_uri() . '/js/slick.min.js', array(), filemtime( get_stylesheet_directory() . '/js/slick.min.js' ) );
 
+	// AOS Library
+    wp_enqueue_style('aos', get_stylesheet_directory_uri() . '/css/aos.css', [], null);
+    wp_enqueue_script('aos', get_stylesheet_directory_uri() . '/js/aos.js', [], null, true);
+
 	// Custom stylesheet 
 	wp_enqueue_style( 'custom', get_stylesheet_directory_uri() . '/css/custom.css', array(), filemtime( get_stylesheet_directory() . '/css/custom.css' ) );
 
